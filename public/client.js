@@ -33,7 +33,7 @@ function calculate(operand1, operand2, operation) {
         case '/':
             uri += "?operation=divide";
             break;
-        case '^':
+        case '^': // power operator
             uri += "?operation=power";
             break;
         default:
